@@ -1,22 +1,26 @@
 
 
-# ==================== Emojis ====================
-# 🎉  :tada: 初めてのコミット（Initial Commit）
-# 🔖  :bookmark: バージョンタグ（Version Tag）
-# ✨  :sparkles: 新機能（New Feature）
-# 🐛  :bug: バグ修正（Bagfix）
-# ♻️  :recycle: リファクタリング(Refactoring)
-# 📚  :books: ドキュメント（Documentation）
-# 🎨  :art: デザインUI/UX(Accessibility)
-# 🐎  :horse: パフォーマンス（Performance）
-# 🔧  :wrench: ツール（Tooling）
-# 🚨  :rotating_light: テスト（Tests）
-# 💩  :hankey: 非推奨追加（Deprecation）
-# 🗑️  :wastebasket: 削除（Removal）
-# 🚧  :construction: WIP(Work In Progress)
+# ==== Emojis ====
+# ✨ 新規機能追加 :sparkles:
+# 📝 ドキュメント追加 :memo:
+# 🔉 ログ追加 :sound:
+# ✅ テストの追加 :white_check_mark:
+# 👍 機能修正 :+1:
+# 🚀 パフォーマンス改善 :rocket:
+# 👮 セキュリティ関連の改善 :cop:
+# ✏️ タイポなどの修正 :pencil2:
+# 🎨 リファクタリング :art:
+# 🚧 コメントアウトなどの無効化 :construction:
+# 🔥 ファイル削除 :fire:
+# 🔇 ログ削除 :mute:
+# 🐛 バグ修正 :bug:
+# 🔖 バージョンアップ :bookmark:
+# 🎉 イニシャルコミット :tada:
 
-
-# ==================== Format ====================
-# :emoji: Subjects
-#
-# Commit body...
+# ==== Messages ====
+# 新規(ファイル)機能追加 Add
+# 機能修正、既存機能追加（バグではない) Update
+# リファクタリング Clean
+# 削除など Remove
+# バグ修正 Fix
+# バージョンアップ Upgrade

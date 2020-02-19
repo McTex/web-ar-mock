@@ -2,39 +2,32 @@
 WebAR Mock用
 
 ## commit rules
+### Emoji Prefix
+|Emoji| コミットタイプ|
+|---|---|
+|✨ `:sparkles:` |新規機能追加|
+|📝 `:memo:` |ドキュメント追加|
+|🔉 `:sound:`|ログ追加|
+|✅ `:white_check_mark:`|テストの追加|
+|👍 `:+1:`|機能修正|
+|🚀  `:rocket:` |パフォーマンス改善|
+|👮  `:cop:`|セキュリティ関連の改善|
+|✏️ `:pencil2:`|タイポなどの修正|
+|🎨 `:art:`|リファクタリング|
+|🚧 `:construction:`|コメントアウトなど|
+|🔥 `:fire: `|ファイル削除|
+|🔇  `:mute:`|ログ削除|
+|🐛 `:bug:` |バグ修正|
+|🔖  `:bookmark:` |バージョンアップ|
+|🎉 `:tada:`|イニシャルコミット|
 
-|   Commit type              | Emoji                                         |
-|:---------------------------|:----------------------------------------------|
-| Initial commit             | :tada: `:tada:`                               |
-| Version tag                | :bookmark: `:bookmark:`                       |
-| New feature                | :sparkles: `:sparkles:`                       |
-| Bugfix                     | :bug: `:bug:`                                 |
-| Documentation              | :books: `:books:`                             |
-| Documenting source code    | :bulb: `:bulb:`                               |
-| Performance                | :racehorse: `:racehorse:`                     |
-| Tests                      | :rotating_light: `:rotating_light:`           |
-| Adding a test              | :white_check_mark: `:white_check_mark:`       |
-| General update             | :zap: `:zap:`                                 |
-| Improve format/structure   | :art: `:art:`                                 |
-| Removing code/files        | :fire: `:fire:`                               |
-| Upgrading dependencies     | :arrow_up: `:arrow_up:`                       |
-| Downgrading dependencies   | :arrow_down: `:arrow_down:`                   |
-| Lint                       | :shirt: `:shirt:`                             |
-| Translation                | :alien: `:alien:`                             |
-| Text                       | :pencil: `:pencil:`                           |
-| Critical hotfix            | :ambulance: `:ambulance:`                     |
-| Deploying stuff            | :rocket: `:rocket:`                           |
-| Work in progress           | :construction:  `:construction:`              |
-| Adding CI build system     | :construction_worker: `:construction_worker:` |
-| Analytics or tracking code | :chart_with_upwards_trend: `:chart_with_upwards_trend:` |
-| Removing a dependency      | :heavy_minus_sign: `:heavy_minus_sign:`       |
-| Adding a dependency        | :heavy_plus_sign: `:heavy_plus_sign:`         |
-| Configuration files        | :wrench: `:wrench:`                           |
-| Package.json in JS         | :package: `:package:`                         |
-| Merging branches           | :twisted_rightwards_arrows: `:twisted_rightwards_arrows:` |
-| Bad code / need improv.    | :hankey: `:hankey:`                           |
-| Reverting changes          | :rewind: `:rewind:`                           |
-| Breaking changes           | :boom: `:boom:`                               |
-| Code review changes        | :ok_hand: `:ok_hand:`                         |
-| Accessibility              | :wheelchair: `:wheelchair:`                   |
-| Move/rename repository     | :truck: `:truck:`                             |
+### コミットメッセージの種別
+
+|コミットメッセージ | 意味|
+|---|---|
+|Add| 新規(ファイル)機能追加|
+|Update| 機能修正、既存機能追加（バグではない)|
+|Clean|リファクタリング|
+|Remove|削除など|
+|Fix|バグ修正|
+|Upgrade|バージョンアップ|
