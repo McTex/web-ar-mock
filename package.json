@@ -17,7 +17,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "@google/model-viewer": "^0.8.1",
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "autoprefixer": "^9.6.0",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
